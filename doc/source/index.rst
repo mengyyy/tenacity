@@ -20,7 +20,7 @@ occurs until a value is returned.
 .. code-block:: python
 
     import random
-    from tenacity import retry
+    from tenacity import *
 
     @retry
     def do_something_unreliable():
